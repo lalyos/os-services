@@ -2,6 +2,7 @@ resizefs:
   image: lalyos/os-resizefs:v0.4.2-dev
   environment:
   - RESIZE_DEV
+  - FORCE
   privileged: true
   labels:
     io.rancher.os.detach: false
